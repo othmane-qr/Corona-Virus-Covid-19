@@ -1,8 +1,27 @@
 .navbar{
     background-image: url("/Assets/png/Merged\ bar-16.png");
     background-size: cover;
-//   img{
-//       width: 1em;
-//   }
+  img{
+      width: 1.4em;
+  }
  
+}
+.prg {
+    background: #F4CF1B;
+    padding: 1%;
+    margin-bottom: 50px;
+    h4{
+        color: #1078AD;
+        font-weight: bold;
+        text-align: center;
+        padding: 1em;
+        
+
+    }
+    p{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1%;
+        
+    } 
 }
