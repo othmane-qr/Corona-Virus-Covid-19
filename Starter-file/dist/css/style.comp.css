@@ -2,7 +2,7 @@ body {
   font-family: 'Catamaran', sans-serif; }
 
 .navbar {
-  background-image: url("/Assets/png/Merged bar-16.png");
+  background-image: url("/Assets/png/kkkkk.png");
   background-size: cover; }
   .navbar img {
     width: 1.4em; }
@@ -38,17 +38,20 @@ body {
   .txt__title2 p {
     font-size: 1.5em;
     font-weight: bold;
-    color: #7F7F7F; }
+    color: #7F7F7F;
+    margin-bottom: .15em; }
 
 .btn1 {
   width: 70%;
   margin-top: 2%;
-  background-image: url("/Assets/png/Merged bar-16.png");
+  background-image: url("/Assets/png/kkkkk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #1078AD;
   padding: 1%;
   color: white;
   font-size: 1.3rem;
   font-weight: 700;
-  border: none;
   border-radius: 0.2em;
   cursor: pointer; }
   .btn1:hover {
