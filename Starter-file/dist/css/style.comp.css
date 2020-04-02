@@ -1,3 +1,6 @@
+body {
+  font-family: 'Catamaran', sans-serif; }
+
 .navbar {
   background-image: url("/Assets/png/Merged bar-16.png");
   background-size: cover; }
@@ -6,14 +9,67 @@
 
 .prg {
   background: #F4CF1B;
-  padding: 1%;
-  margin-bottom: 50px; }
+  margin-bottom: 3rem;
+  padding: 2em; }
   .prg h4 {
     color: #1078AD;
     font-weight: bold;
     text-align: center;
-    padding: 1em; }
+    font-size: 2em; }
   .prg p {
     font-size: 1.2em;
     text-align: center;
     padding: 1%; }
+
+.headerHero {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.txt {
+  text-align: center; }
+  .txt img {
+    padding: 3em; }
+  .txt__title1 {
+    font-size: 2em;
+    color: #1078AD;
+    font-weight: 700; }
+  .txt__title2 p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7F7F7F; }
+
+.btn1 {
+  width: 70%;
+  margin-top: 2%;
+  background-image: url("/Assets/png/Merged bar-16.png");
+  padding: 1%;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer; }
+  .btn1:hover {
+    background-color: #1078AD; }
+
+.img-doc {
+  width: 45vw;
+  padding: 1.5em; }
+
+@media only screen and (max-width: 600px) {
+  .prg {
+    padding: 3%; }
+    .prg h4 {
+      font-size: 1.2em; }
+    .prg p {
+      font-size: 1em; }
+  .txt__title1 {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .headerHero {
+    display: flex;
+    flex-direction: column-reverse; }
+  .img-doc {
+    width: 100%; } }
