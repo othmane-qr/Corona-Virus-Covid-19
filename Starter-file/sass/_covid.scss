@@ -69,22 +69,8 @@ body{
 }
 
 .btn1 {
-    width: 70%;
-    margin-top: 2%;
-    background-image: url("/Assets/png/kkkkk.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px solid $color-blue;
-    padding: 1%;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 700;
-    border-radius: 0.2em;
-    cursor: pointer;
-    &:hover {
-        background-color: $color-blue;
-        
-      }
+    @include butn1;
+   
 }
 .img-doc {
     width: 45vw;
