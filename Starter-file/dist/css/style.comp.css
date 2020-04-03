@@ -76,3 +76,28 @@ body {
     flex-direction: column-reverse; }
   .img-doc {
     width: 100%; } }
+
+.sympt h2 {
+  text-align: center;
+  color: #1078AD;
+  padding-top: 2em;
+  font-weight: 700; }
+
+.sympt__disc {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  padding: 3em; }
+  .sympt__disc .photo {
+    text-align: center;
+    padding: 2em; }
+    .sympt__disc .photo__img {
+      padding-bottom: 1em; }
+      .sympt__disc .photo__img--img1 {
+        width: 3.6em;
+        padding-bottom: .3em; }
+      .sympt__disc .photo__img--img2 {
+        padding-bottom: .3em; }
+    .sympt__disc .photo__text {
+      color: #1078AD;
+      font-size: 1em;
+      font-weight: bold; }
