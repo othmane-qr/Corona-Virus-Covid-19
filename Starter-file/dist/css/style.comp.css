@@ -151,3 +151,37 @@ body {
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
+  .recomm .reco {
+    background-color: #96C5DC; }
+    .recomm .reco__title2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #1078AD;
+      margin: 2em; }
+    .recomm .reco__img {
+      text-align: center; }
+    .recomm .reco__btn {
+      padding-top: 2em;
+      text-align: center;
+      padding-bottom: 2em; }
+      .recomm .reco__btn .button1 {
+        background-image: url("/Assets/png/kkkkk.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        color: #1078AD;
+        font-weight: bold;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 24em;
+        border-radius: .25em;
+        border: 2px solid #011b8d; }
+        .recomm .reco__btn .button1:hover {
+          background-color: #1078AD;
+          color: #fff; }
