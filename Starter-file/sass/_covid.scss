@@ -109,5 +109,42 @@ body{
     }
 
 }
+.sympt{
+    h2{
+        text-align: center;
+        color:$color-blue;
+        padding-top: 2em;
+        font-weight: 700;
+    }
 
+    &__disc{
+        display: grid;
+        grid-template-columns: repeat(2 , 50%);
+        padding: 3em;
+        
+        .photo{
+            text-align: center;
+            padding: 2em;
+            &__img{
+                padding-bottom:1em ;
+                &--img1{
+                    width: 3.6em;
+                    padding-bottom: .3em;
+                }
+                &--img2{
+                    padding-bottom: .3em;
+                }
+            }
+
+            &__text{
+                color:$color-blue;
+               font-size: 1em;
+                font-weight: bold;
+            
+            }
+            
+        }
+
+    }
+}
 
