@@ -70,6 +70,10 @@ body{
 
 .btn1 {
     @include butn1;
+    &:hover {
+        background-color: $color-blue;
+        
+      }
    
 }
 .img-doc {
