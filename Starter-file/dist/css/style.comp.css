@@ -135,19 +135,19 @@ body {
       text-align: center;
       font-weight: bold; }
       .recomm .list__appel h3 {
-        color: yellow; }
+        color: #F4CF1B; }
       .recomm .list__appel--num1 {
-        background-color: yellow;
+        background-color: #F4CF1B;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
       .recomm .list__appel--num2 {
-        background-color: yellow;
+        background-color: #F4CF1B;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
       .recomm .list__appel--num3 {
-        background-color: yellow;
+        background-color: #F4CF1B;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
@@ -185,3 +185,19 @@ body {
         .recomm .reco__btn .button1:hover {
           background-color: #1078AD;
           color: #fff; }
+
+@media screen and (max-width: 900px) {
+  .recomm__conse h4 {
+    padding-left: 2em; }
+  .recomm .list {
+    display: flex;
+    flex-direction: column; }
+    .recomm .list__appel {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      padding: .30em;
+      margin: 1em; }
+      .recomm .list__appel h3 {
+        padding-top: 2em; } }
