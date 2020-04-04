@@ -1,0 +1,105 @@
+.logo{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    img{
+        width: 5em;
+    }
+}
+.footers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+   
+
+.contact{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    h2{
+      color: $color-blue;
+      text-align: center;
+        
+    }
+
+    &__num{
+        h5{
+            text-align: center;
+
+        }
+        p{
+            color:$color-green;
+            font-weight: bold;
+            text-align: center;
+            padding-right: 3em;
+            padding: .25em;
+           
+        }
+    }
+    
+
+}
+.menu{
+     text-align: center;
+     padding-top: 6em;
+        
+        h4{
+           
+           border-bottom: .1em solid rgba(16, 121, 173, 0.5) ;
+           padding-bottom: .5em;
+           width: 10em;
+           padding-left: 1em;
+       
+
+        }
+       
+        a{
+            text-decoration: none;
+            color:$color-blue;
+           
+        }
+
+        
+    }
+     }
+    .fin{
+        background-color: $color-blue;
+        width: 100%;
+        height: 1.5em;
+        margin-top: 1em;
+    }
+    @media only screen and (max-width: 600px){
+
+        .menu{
+            h4{
+                width: 6em;
+                font-size: 1em;
+            }
+
+        }
+        .footers{
+            .contact{
+               
+               h2{
+                   font-size: 2em;
+               }
+            
+                &__num{
+                    h5{
+                       font-size: .8em;
+            
+                    }
+                    P{
+                        font-size: .8em;
+                    }
+                    
+
+        }
+        
+
+
+    }
+}
+
+
+ }
