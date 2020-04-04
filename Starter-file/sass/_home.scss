@@ -35,7 +35,7 @@
              line-height: 2em;
              list-style: none;
            span{  
-             color: #F4CF1B;
+             color:$color-yellow;
              
              
              }
@@ -51,24 +51,24 @@
         font-weight: bold;
     
         h3{
-            color: yellow;
+            color:$color-yellow;
             
            
         }
         &--num1{
-            background-color:yellow;
+            background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
             color:$color-blue;
            
         }
         &--num2{
-            background-color:yellow;
+            background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
             color: #1078AD;
         }&--num3{
-            background-color:yellow;
+            background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
             color: #1078AD;
@@ -118,4 +118,36 @@
     
       }
     
+    }
+    @media screen and (max-width: 900px) {
+        .recomm{  
+            &__conse{
+                h4{
+                    padding-left: 2em; 
+                   
+            
+               }
+            }
+       .list{
+          display: flex;
+          flex-direction: column;
+           &__appel{
+           
+    
+            display: flex;
+           justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            padding: .30em;
+            margin: 1em;
+            h3{
+                
+                padding-top: 2em;
+               
+            }
+            
+            
+           }
+        }
+      }
     }
