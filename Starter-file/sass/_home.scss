@@ -36,6 +36,7 @@
              list-style: none;
            span{  
              color:$color-yellow;
+             padding-right: 1em;
              
              
              }
@@ -66,12 +67,12 @@
             background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
-            color: #1078AD;
+            color: $color-blue;
         }&--num3{
             background-color:$color-yellow;
             border-radius: .25em;
             width: 10em;
-            color: #1078AD;
+            color:$color-blue;
         }
     }
       }
