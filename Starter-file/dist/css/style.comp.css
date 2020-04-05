@@ -297,3 +297,20 @@ body {
       font-weight: bold;
       color: #1078AD;
       text-align: center; }
+
+@media only screen and (max-width: 900px) {
+  .prot .Protege {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+    .prot .Protege .cons__img img {
+      width: 4em; }
+    .prot .Protege .cons__para {
+      font-size: .9em; }
+  .prot .cons1 {
+    text-align: center; }
+    .prot .cons1__img img {
+      width: 4em; }
+    .prot .cons1__para {
+      font-size: .9em;
+      font-weight: bold;
+      text-align: center; } }
