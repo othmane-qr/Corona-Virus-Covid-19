@@ -1,0 +1,59 @@
+.prot{
+    padding-top: 2em;
+
+    h1{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: center;
+        color: $color-blue;
+    }
+
+.Protege{
+   display: grid;
+   grid-template-columns: repeat(3, 33.33%);
+   padding-top: 1.5em;
+.cons {
+
+	padding: 3em;
+
+    &__img{
+        
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+             width: 7em;
+         }
+    }
+    &__para{
+    
+        font-size: 1.2em;
+        font-weight: bold;
+        
+        color: $color-blue;
+        text-align: center;
+    }
+   }
+
+  }
+  .cons1{
+      text-align: center;
+      &__img{
+      
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+            width: 7em;
+        }
+    }
+    &__para{
+        
+        font-size: 1.2em;
+        font-weight: bold;
+        
+        color:$color-blue;
+        text-align: center;
+    }
+  }
+}
