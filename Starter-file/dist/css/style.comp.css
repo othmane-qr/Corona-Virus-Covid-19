@@ -259,3 +259,41 @@ body {
     font-size: .8em; }
   .footers .contact__num P {
     font-size: .8em; } }
+
+.prot {
+  padding-top: 2em; }
+  .prot h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    color: #1078AD; }
+  .prot .Protege {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    padding-top: 1.5em; }
+    .prot .Protege .cons {
+      padding: 3em; }
+      .prot .Protege .cons__img {
+        text-align: center;
+        padding-right: 1em;
+        padding-bottom: 1em; }
+        .prot .Protege .cons__img img {
+          width: 7em; }
+      .prot .Protege .cons__para {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #1078AD;
+        text-align: center; }
+  .prot .cons1 {
+    text-align: center; }
+    .prot .cons1__img {
+      text-align: center;
+      padding-right: 1em;
+      padding-bottom: 1em; }
+      .prot .cons1__img img {
+        width: 7em; }
+    .prot .cons1__para {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #1078AD;
+      text-align: center; }
