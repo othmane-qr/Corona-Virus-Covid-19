@@ -97,3 +97,72 @@
               }
     }
 }
+
+.info{
+       background: url("/Assets/png/Merged\ bar-14.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       text-align: center;
+    .text{
+       
+        padding-top: 2em;
+
+        h2{
+            
+            font-size: 3em;
+            color: $color-blue;   
+        }
+        p{
+            color: $color-blue;
+            font-size: 1.6em;
+            font-weight: 700;
+            padding-top: .4em;
+            
+        }
+  
+           
+        
+}
+    .btn3
+    {
+        a{
+            line-height: 5em;
+            background: url("/Assets/png/En\ chiffres-33.png");
+            background-position: center;
+            width: 23%;
+            margin-top: 3%;
+            padding: .9%;
+            font-size: 1.4rem;
+            font-weight: 500;
+            border-radius: .2em;
+         
+            cursor: pointer;
+            color: white;
+         
+            margin-bottom: 3%;
+            text-decoration: none;
+        
+        }
+        
+        
+    
+    
+    
+    
+    }
+
+  }
+  @media only screen and (max-width: 600px){
+    
+    .info{
+    .text{
+        p{
+          
+            font-size: 1.3em;
+        
+           
+            
+        }
+    }
+}
+  }
