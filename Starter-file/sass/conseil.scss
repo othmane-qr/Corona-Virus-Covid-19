@@ -57,3 +57,43 @@
     }
   }
 }
+@media only screen and (max-width:900px){
+    .prot{
+       
+        .Protege{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            .cons {
+
+                &__img{
+                    
+    
+                     img{
+                         width: 4em;
+                     }
+                }
+                &__para{
+                    font-size: .9em;
+                 
+                }
+               }
+            
+              }
+              .cons1{
+                  text-align: center;
+                  &__img{
+                  
+
+                     img{
+                        width: 4em;
+                    }
+                }
+                &__para{
+                    
+                    font-size: .9em;
+                    font-weight: bold;
+                    text-align: center;
+                }
+              }
+    }
+}
