@@ -1,0 +1,161 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.navbar{
+    background-image: url("/starter-file/app/images/kkkkk.png");
+    background-size: cover;
+  img{
+      width: 1.4em;
+  }
+  .log{
+      width: 3em;
+  }
+}
+.prg {
+    background: $color-yellow;
+    margin-bottom: 3rem;
+    padding: 2em;
+    h4{
+        color:$color-blue;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+        
+        
+
+    }
+    p{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1%;
+        
+    } 
+}
+.headerHero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+
+
+.txt {
+  
+    text-align: center;
+
+
+    img{
+        padding: 3em; 
+    }
+
+    &__title1 {
+        font-size: 2em;
+        color: $color-blue;
+        font-weight: 700 ;
+        
+    }
+
+    &__title2 {
+        p{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: $color-font;
+        margin-bottom: .15em;
+       
+        }
+    }
+
+}
+
+.btn1 {
+    @include butn1;
+    &:hover {
+        background-color: $color-blue;
+        
+        
+      }
+   
+}
+.img-doc {
+    width: 45vw;
+    padding: 1.5em;
+   
+    
+    
+}
+
+@media only screen and (max-width: 900px){
+    
+    .prg{
+        padding: 3%;
+        h4{
+            font-size: 1.2em;
+        }
+        p{
+            font-size: 1em;
+        }
+    }
+    .txt{
+        &__title1 {
+
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+
+    .headerHero{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .img-doc{
+        width: 100%;
+    }
+
+}
+.sympt{
+    h2{
+        text-align: center;
+        color:$color-blue;
+        padding-top: 2em;
+        font-weight: 700;
+    }
+
+    &__disc{
+        display: grid;
+        grid-template-columns: repeat(2 , 50%);
+        padding: 3em;
+        img{
+                width: 7em;
+            }
+        .photo{
+            text-align: center;
+            padding: 2em;
+            
+            &__img{
+                padding-bottom:1em ;
+                &--img1{
+                    width: 3em;
+                    padding-bottom: 1em;
+                }
+                
+                
+            }
+
+            &__text{
+                color:$color-blue;
+               font-size: 1em;
+                font-weight: bold;
+            
+            }
+            
+        }
+
+    }
+}
+

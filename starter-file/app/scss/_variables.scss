@@ -1,0 +1,41 @@
+$color-blue:#1078AD;
+$color-yellow:#F4CF1B;
+$color-ciel:#96C5DC;
+$color-gray:#e9ecef;
+$color-green:#369D53;
+$color-font:#7F7F7F;
+
+@mixin butn1 {
+    width: 70%;
+    margin-top: 2%;
+    background-image: url("/starter-file/app/images/kkkkk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid $color-blue;
+    padding: 1%;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.2em;
+    cursor: pointer;
+    
+}
+@mixin butn2 {
+                background-image: url("/starter-file/app/images/kkkkk.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                border: none;
+                color: #1078AD;
+                font-weight: bold;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 24em;
+                border-radius:.25em ;
+                border: 2px solid #011b8d;
+                
+}
