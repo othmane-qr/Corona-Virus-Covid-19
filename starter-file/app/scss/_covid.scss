@@ -77,8 +77,12 @@ body{
     &:hover {
         background-color: $color-blue;
         
-        
+        a{
+          text-decoration: none;
+          color: #ffffff;
       }
+      }
+      
    
 }
 .img-doc {
