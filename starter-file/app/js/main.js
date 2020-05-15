@@ -119,7 +119,7 @@ let questions = [{
     const currentNmber = number + 1
   
     questionNumber.innerText = currentNmber
-    progressBar.style.width = `calc(${currentNmber} * calc(99% / 4))`
+    progressBar.style.width = `calc(${currentNmber} * calc(100% / 4))`
   
   }
   
