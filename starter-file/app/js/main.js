@@ -78,7 +78,6 @@ let questions = [{
   let progressBar = document.querySelector(".bar");
   let questionNumber = document.querySelector(".question-number");
   let inputBox = document.querySelector(".inputBox");
-  
   let result = document.querySelector(".header");
   let resultMessage = document.querySelector(".end"); 
   let resultMessage2 = document.querySelector('.end2')  
@@ -177,17 +176,6 @@ let questions = [{
   
   function Results() {
     // patient with no symptoms  
-
-    if ((answers['Q1'] === 'oui')&& (answers['Q2'] === 'oui') && (answers['Q3'] === 'oui') && (answers['Q4'] === 'oui')) {
-  
-        resultMessage.innerText = 'Votre situation ne relève probablement pas du Covid-19.' +
-        'N’hésitez pas à contacter votre médecin en cas de doute.' + 'Vous pouvez refaire le test en cas de nouveau symptôme pour réévaluer la situation.' + 'Pour toute information concernant le Covid-19 allez vers la page d’accueil.'
-        resultMessage2.innerText = 'Restez chez vous au maximum en attendant que les symptômes disparaissent. Pren' +
-        'ez votre température deux fois par jour. Rappel des mesures d’hygiène.'
-        resultMessage.style.fontWeight = 'bold'
-        resultMessage.style.fontWeight = 'bold'
-        resultMessage.style.color = '#369D53'
-    }
       if ((answers['Q1'] === 'Non') && (answers['Q3'] === 'Non') && (answers['Q4'] === 'Non')) {
   
         resultMessage.innerText = 'Votre situation ne relève probablement pas du Covid-19.' +
