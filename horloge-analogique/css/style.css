@@ -1,0 +1,70 @@
+Layout
+ .main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+
+
+.clockbox,
+#clock {
+    width: 100%;
+    background-color: rgb(34, 31, 31);
+}
+
+/* Clock styles */
+.circle {
+    fill: none;
+    stroke:rgb(214, 210, 210);
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill:goldenrod;
+  
+}
+.hour-marks {
+    fill: none;
+    stroke:goldenrod;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: none;
+    stroke:goldenrod;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.minute-arm {
+    fill: none;
+    stroke:goldenrod;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke:red;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+} 
+
+
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    /* transition: transform .5s ease-in-out; */
+}
