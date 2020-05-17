@@ -5,7 +5,7 @@ body {
   font-family: 'Catamaran', sans-serif; }
 
 .navbar {
-  background-image: url("/starter-file/app/images/kkkkk.png");
+  background-image: url("/File_Starter/app/images/kkkkk.png");
   background-size: cover; }
   .navbar img {
     width: 1.4em; }
@@ -49,7 +49,7 @@ body {
 .btn1 {
   width: 70%;
   margin-top: 2%;
-  background-image: url("/starter-file/app/images/kkkkk.png");
+  background-image: url("/File_Starter/app/images/kkkkk.png");
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid #1078AD;
@@ -175,7 +175,7 @@ body {
       text-align: center;
       padding-bottom: 2em; }
       .recomm .reco__btn .button1 {
-        background-image: url("/starter-file/app/images/kkkkk.png");
+        background-image: url("/File_Starter/app/images/kkkkk.png");
         background-size: cover;
         background-repeat: no-repeat;
         border: none;
@@ -325,7 +325,7 @@ body {
       text-align: center; } }
 
 .info {
-  background: url("/starter-file/app/images/Merged bar-14.png");
+  background: url("/File_Starter/app/images/Merged bar-14.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center; }
@@ -341,7 +341,7 @@ body {
       padding-top: .4em; }
   .info .btn3 a {
     line-height: 5em;
-    background: url("/starter-file/app/images/En chiffres-33.png");
+    background: url("/File_Starter/app/images/En chiffres-33.png");
     background-position: center;
     width: 23%;
     margin-top: 3%;
@@ -379,7 +379,7 @@ body {
 .btun5 {
   text-align: center; }
   .btun5 #start {
-    background: url("/starter-file/app/images/En chiffres-33.png");
+    background: url("/File_Starter/app/images/En chiffres-33.png");
     background-position: center;
     width: 30%;
     margin-top: 3%;
