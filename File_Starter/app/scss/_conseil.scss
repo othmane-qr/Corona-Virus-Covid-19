@@ -1,0 +1,168 @@
+.prot{
+    padding-top: 2em;
+
+    h1{
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: center;
+        color: $color-blue;
+    }
+
+.Protege{
+   display: grid;
+   grid-template-columns: repeat(3, 33.33%);
+   padding-top: 1.5em;
+.cons {
+
+	padding: 3em;
+
+    &__img{
+        
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+             width: 7em;
+         }
+    }
+    &__para{
+    
+        font-size: 1.2em;
+        font-weight: bold;
+        
+        color: $color-blue;
+        text-align: center;
+    }
+   }
+
+  }
+  .cons1{
+      text-align: center;
+      &__img{
+      
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+            width: 7em;
+        }
+    }
+    &__para{
+        
+        font-size: 1.2em;
+        font-weight: bold;
+        
+        color:$color-blue;
+        text-align: center;
+    }
+  }
+}
+@media only screen and (max-width:900px){
+    .prot{
+       
+        .Protege{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            .cons {
+
+                &__img{
+                    
+    
+                     img{
+                         width: 4em;
+                     }
+                }
+                &__para{
+                    font-size: .9em;
+                 
+                }
+               }
+            
+              }
+              .cons1{
+                  text-align: center;
+                  &__img{
+                  
+
+                     img{
+                        width: 4em;
+                    }
+                }
+                &__para{
+                    
+                    font-size: .9em;
+                    font-weight: bold;
+                    text-align: center;
+                }
+              }
+    }
+}
+
+.info{
+       background: url("/starter-file/app/images/Merged\ bar-14.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       text-align: center;
+    .text{
+       
+        padding-top: 2em;
+
+        h2{
+            
+            font-size: 3em;
+            color: $color-blue;   
+        }
+        p{
+            color: $color-blue;
+            font-size: 1.6em;
+            font-weight: 700;
+            padding-top: .4em;
+            
+        }
+  
+           
+        
+}
+    .btn3
+    {
+        a{
+            line-height: 5em;
+            background: url("/starter-file/app/images/En\ chiffres-33.png");
+            background-position: center;
+            width: 23%;
+            margin-top: 3%;
+            padding: .9%;
+            font-size: 1.4rem;
+            font-weight: 500;
+            border-radius: .2em;
+         
+            cursor: pointer;
+            color: white;
+         
+            margin-bottom: 3%;
+            text-decoration: none;
+        
+        }
+        
+        
+    
+    
+    
+    
+    }
+
+  }
+  @media only screen and (max-width: 600px){
+    
+    .info{
+    .text{
+        p{
+          
+            font-size: 1.3em;
+        
+           
+            
+        }
+    }
+}
+  }
